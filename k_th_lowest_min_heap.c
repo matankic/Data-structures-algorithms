@@ -93,8 +93,8 @@ void kmininmal(int * minHeap, int n, int k){
 // example :
 // k = 8
 int main(){
-	int arr[] = {1, 4, 2, 6, 5, 8, 10, 7, 9, 11};
+	int heap[] = {1, 4, 2, 6, 5, 8, 10, 7, 9, 11};
 	int size = sizeof(arr) / sizeof (int);
-	kmininmal(arr, size, 8);
+	kmininmal(heap, size, 8);
 	return 0;
 }
